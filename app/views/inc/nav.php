@@ -11,16 +11,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-warning english" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-warning english" aria-current="page" href="<?php echo URLROOT . 'inc/index'; ?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-warning english" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning english" href="<?php echo URLROOT . 'user/login'; ?>" >Login</a>
+                        <a class="nav-link text-warning english" href="<?php echo URLROOT . 'user/login'; ?>">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-warning english" href="<?php echo URLROOT . 'user/register'; ?>">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning english" href="<?php echo URLROOT . 'user/register'; ?>">Logout</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-warning english" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
